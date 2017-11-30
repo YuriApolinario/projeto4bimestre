@@ -1,0 +1,104 @@
+/ * *
+ * Variáveis
+ * /
+/ * *
+ * Estilos de base
+ * 1. Melhorar modelo de caixa
+ * 2. Permitir imagens fluidas
+ * /
+* ,
+* : antes ,
+* : depois de {
+  caixa-dimensionamento : caixa de borda ;
+  / * 1 * /
+}
+
+corpo {
+  cor de fundo : # F5F5F5 ;
+}
+
+img {
+  largura máxima : 100 % ;
+  / * 2 * /
+}
+
+/ * *
+ * Container Styles
+ * /
+.container {
+  largura máxima : 30 em ;
+  margem : 0  auto ;
+  preenchimento : 1 em ;
+}
+
+/ * *
+ * Helper Styles
+ * /
+.ir {
+  recuo de texto : 100 % ;
+  espaço em branco : nowrap ;
+  transbordamento : oculto ;
+}
+
+/ * *
+ * Gallery Styles
+ * 1. Permitir imagens fluidas
+ * /
+.gallery {
+  transbordamento : oculto ;
+}
+
+.gallery__hero {
+  transbordamento : oculto ;
+  posição : relativa ;
+  preenchimento : 2 em ;
+  margem : 0  0  0.33333 em ;
+  background : #fff ;
+}
+.is-zoomed  .gallery__hero {
+  cursor : mover ;
+}
+.is-zoomed  .gallery__hero  img {
+  largura máxima : nenhuma ;
+  posição : absoluta ;
+  índice z : 0 ;
+  topo : -50 % ;
+  esquerda : -50 % ;
+}
+
+.gallery__hero-enlarge {
+  posição : absoluta ;
+  direito : 0,5 em ;
+  fundo : 0,5 em ;
+  índice z : 1 ;
+  largura : 30 px ;
+  altura : 30 px ;
+  opacidade : 0,5 ;
+  -webkit-transition : opacidade 0.3 s  cúbico-bezier ( 0.455 , 0.03 , 0.515 , 0.955 );
+  transição : opacidade 0.3 s  cúbico-bezier ( 0.455 , 0.03 , 0.515 , 0.955 );
+}
+.gallery__hero-enlarge : hover {
+  opacidade : 1 ;
+}
+.is-zoomed  .gallery__hero-enlarge {
+  background-image : url (dados: image / svg + xml; base64,PHNNzdjMi4zNTQgMCA0LjI2MiAxLjkwOCA0LjI2MiA0LjI2MnMtMS45MSA0LjI2LTQuMjYyIDQuMjZ6Ii8 + PC9zdmc +);
+}
+
+.gallery__thumbs {
+  texto-alinhamento : centro ;
+  background : #fff ;
+}
+.gallery__ thumbs  a {
+  exibição : bloco em linha ;
+  largura : 20 % ;
+  preenchimento : 0,5 em ;
+  opacidade : 0,75 ;
+  -webkit-transition : opacidade 0.3 s  cúbico-bezier ( 0.455 , 0.03 , 0.515 , 0.955 );
+  transição : opacidade 0.3 s  cúbico-bezier ( 0.455 , 0.03 , 0.515 , 0.955 );
+}
+.gallery__thumbs  a : hover {
+  opacidade : 1 ;
+}
+.gallery__thumbs  a .is-active {
+  opacidade : 0,2 ;
+}

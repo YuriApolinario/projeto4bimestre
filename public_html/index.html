@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Lojinha</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="js/jquery-3.2.1.js"></script>
+
+        <script src="js/popper.js"></script>
+
+        <script src="js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+
+        <link rel="stylesheet" href="css/personalizado.css" type="text/css" />        
+
+        <style>
+            .card{
+                margin-right: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .card img{
+                height: 225px;
+            }
+
+            .card-body{
+                text-align: left;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="container-fluid"  >
+
+            <div class="row">
+
+                <div class="col">
+
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">Lojinha</a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Login
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <form class="px-4 py-3">
+                                            <div class="form-group">
+                                                <label for="exampleDropdownFormEmail1">Email</label>
+                                                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleDropdownFormPassword1">Password</label>
+                                                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input type="checkbox" class="form-check-input">
+                                                    lembrar Senha
+                                                </label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Login</button>
+                                        </form>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="http://localhost:8383/tecnologias_web-master/cadastro.html?">Cadastre-se</a>
+                                        <a class="dropdown-item" href="#">esqueceu a senha?</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="http://localhost:8383/tecnologias_web-master/cadastro.html?">Cadastre-se</a>
+                                </li>
+
+                            </ul>
+
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Procurar">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
+                            </form>
+
+
+                            <a class="nav-link" href="carrinho.html" > <img class="card-img-top" src="https://icon-icons.com/icons2/203/PNG/48/diagram-61_24456.png " width="200px">
+                            </a>
+
+
+                        </div>
+                    </nav>             
+                    <!--**************************************************************-->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="https://www.japansociety.com.br/static/imagens/banners/Banner_37_1_2.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://www.japansociety.com.br/static/imagens/banners/Banner_22_1_2.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://d26lpennugtm8s.cloudfront.net/stores/342/362/themes/new_linkedman/slide-1511747526052-1752418326-4ac1e228603cbf07553bd1fcf14126ae1511747543.png?865452195" alt="Third slide">
+                            </div>
+                        </div>
+                    </div>
+                    <!--***********************************************************-->
+                </div>
+                
+            </div>
+            <br/>
+            <!--*******************-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <a class="navbar-brand" href="#">Categorias</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Camisetas</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Canecas</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Quadros</a>
+      </li>
+      <li class="nav-item active a">
+        <a class="nav-link active " href="#">Decoração e gerais</a>
+      </li>
+    </ul>
+  </div>
+</nav><br>
+<hr>
+<!--***********************-->
+            <div style="position:relative" class="container" >
+            <div class="row">
+
+
+
+                <div class="container fluid">
+
+                    <div class="card-deck  ">
+                        <div class="card float-left" style="width: 200px;">
+                            <div class="card-body">
+                                <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+                                <h4 class="card-title">Camiseta Ryuk Death note </h4>
+                                <p class="card-text">R$50,00</p>
+                                <a href="Produto.html" class="btn btn-primary">Comprar</a>
+
+                            </div>
+                        </div>
+                        <div class="card float-left"  style="width: 200px;">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://www.casasbahia-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=350131708" alt="Card image cap">
+
+                                <h4 class="card-title">Quadro chapeis </h4>
+                                <p class="card-text">R$30,00</p>
+                                <a href="prod.html" class="btn btn-primary">Comprar</a>
+
+                            </div>
+                        </div>
+                        <div class="card float-left" style="width: 200px;">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://cdn.awsli.com.br/400x400/2/2688/produto/12528142/f28f3b8a3d.jpg" alt="Card image cap">
+                                <h4 class="card-title">Camiseta Stranger Things</h4>
+                                <p class="card-text">R$35,00</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+
+                            </div>
+                        </div>
+                        <div class="card float-left" style="width: 200px;">
+                            <div class="card-body">
+                                <img class="card-img-top" src="http://store.uppersturtgeneralstore.com/wp-content/uploads/2015/06/Star-Wars-Darth-Vader-Cookie-Jar.jpg" alt="Card image cap">
+                                <h4 class="card-title">Pote biscoito Dart Vader</h4>
+                                <p class="card-text">R$100,00</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+
+                            </div>
+                        </div>
+
+                    </div><br/>
+
+                    <!--*****************************************************-->
+                    <div class="card-deck">
+                        <div class="card float-left" style="width: 200px;">
+                            <div class="card-body">
+                                <img class="card-img-top" src="http://rockntech.com.br/wp-content/uploads/2012/07/pote-biscoitos-batman.jpg" alt="Card image cap">
+
+                                <h4 class="card-title">pote Biscoito Batman</h4>
+                                <p class="card-text">R$100,00</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+
+                            </div>
+                        </div>
+                        <div class="card float-left" style="width: 200px;">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm0xkA_g6HVIsE6w1Y7532yY9IQ7Oal7kxaOt9UA1sn5lef7kY" alt="Card image cap">
+
+                                <h4 class="card-title">Quadro King Of Game</h4>
+                                <p class="card-text">R$30,00</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+
+                            </div>
+                        </div>
+                        <div class="card float-left" style="width: 200px;">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://img.elo7.com.br/product/zoom/19DFB1A/caneca-simpsons-pelado-hipster.jpg" alt="Card image cap">
+
+                                <h4 class="card-title">caneca Simpsons</h4>
+                                <p class="card-text">R$35,00</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+
+                            </div>
+                        </div>
+                        <div class="card float-left" style="width: 200px;">
+                            <div class="card-body">
+                                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHFNgQ1Jh0cYhRm_q4oTWIeK2eJc_g8riamnwIvYfi1MUjLJU-" alt="Card image cap">
+
+                                <h4 class="card-title">Caneca Super Mario</h4>
+                                <p class="card-text">R$50,00</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            </div>
+            <br/>
+            <hr>
+  
+            <div class="row" >
+
+                <div class="col-md">
+                    <ul class="list-unstyled">
+                        <h2>Quem Somos</h2>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                        <li>Integer molestie lorem at massa</li>
+                        <li>Facilisis in pretium nisl aliquet</li>
+                    </ul>
+                </div>
+
+                <div class="col-md">
+                    <ul class="list-unstyled">
+                        <h2>Categorias</h2>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                        <li>Integer molestie lorem at massa</li>
+                        <li>Facilisis in pretium nisl aliquet</li>
+                    </ul>
+                </div>
+
+                <div class="col-md">
+
+                    <h2>Formas de pagamento</h2>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <img src="https://static.kabum.com.br/conteudo/temas/001/imagens/rodape/band_visa.png" title="Visa" border="0">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="https://static.kabum.com.br/conteudo/temas/001/imagens/rodape/band_master.png" title="MasterCard" border="0">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="https://static.kabum.com.br/conteudo/temas/001/imagens/rodape/band_american.png" title="American Express" border="0">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="https://static.kabum.com.br/conteudo/temas/001/imagens/rodape/band_diners.png" title="Diners Club" border="0">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="https://static.kabum.com.br/conteudo/temas/001/imagens/rodape/band_hiper.png" title="Hipercard" border="0">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="https://static.kabum.com.br/conteudo/temas/001/imagens/rodape/band_elo.png" title="Elo" border="0">
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <br/>
+
+            <div class="row bg-dark text-white">
+                <div class="col-md text-center">
+                    Desenvolvido por: Yuri Whinnycios Apolinario
+                </div>
+            </div>
+
+  </div>
+        
+</div>
+    </body>
+
+</html>
